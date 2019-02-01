@@ -53,3 +53,9 @@ The benchmark used can be execute by the following command
     
 In order to produce the graphs presented in the paper, you will need [GnuPlot](http://www.gnuplot.info).
 
+
+Haskell prototype of the SBLP 2018 paper
+---------------------------------------
+
+The code for the Haskell prototype for the SBLP 2018 is available at folder 
+haskellprototype.
