@@ -98,7 +98,11 @@
 %% Group authors per affiliation:
 \author{Thales Delfino}
 \author{Rodrigo Ribeiro}
-\address{Departamento de Computa\c{c}\~ao - DECOM, Universidade Federal de Ouro Preto}
+\address{Programa de P\'os-Gradua\c{c}\~ao em Ci\^encia da Computa\c{c}\~ao -
+  PPGCC, Universidade Federal de Ouro Preto}
+\author{Andr\'e Rauber Du Bois}
+\address{Programa de P\'os-Gradua\c{c}\~ao em Computa\c{c}\~ao -
+  PPGC, Universidade Federal de Pelotas}
 \author{Elton Cardoso}
 \address{Departamento de Computa\c{c}\~ao e Sistemas - DECSI, Universidade Federal de Ouro Preto}
 \author{Leonardo Reis}
@@ -207,7 +211,7 @@ background concepts on RE and its parsing problem.
 Our operational semantics for RE parsing and its theoretical properties
 are described in Section~\ref{section:semantics}. Our Coq formalization is described in 
 Section~\ref{section:formalization}.  Section~\ref{section:experiments} presents some experimental
-results regarding the tool we produced using the verified algorithm and Section~\ref{section:related} discuss
+results regarding the tool produced using the verified algorithm and Section~\ref{section:related} discuss
 related works. Finally, Section~\ref{section:conclusion} concludes and 
 presents some directions for future work.
 
@@ -496,7 +500,7 @@ $(\size(e),|s|)$.
 
 Following common practice \cite{Lopes2016,Ribeiro2017,Rathnayake2011}, we adopt an inductive
 characterization of RE membership semantics. We let judgment $s \in \sembrackets{e}$ denote
-that string $s$ is in the language denoted by RE $e$.
+that string $s$ is in the language denoted by RE $e$ (Figure~\ref{figure:semantics}).
 
 \begin{figure}[h]
 	\[
@@ -1711,16 +1715,22 @@ In this work, we presented a big-step operational semantics for a virtual machin
 Our semantics produces, as parsing evidence, bit-codes which can be used to characterize which
 disambiguation strategy is followed by the semantics. In order to avoid the well-known problems with 
 problematic REs, we use an algorithm that converts a problematic RE into an equivalent non-problematic one.
-All theoretical results reported in this paper are intregrally verified using Coq proof assistant.
+All theoretical results reported in this paper are intregrally verified using
+Coq proof assistant. 
 From our formalization, we extract a Haskell implementation of our algorithm and used it to build 
 a tool for RE parsing, which has performance comparable to a optimized Haskell library
-for RE parsing. 
+for RE parsing. The complete development is avaliable at~\cite{regexvm-rep}.
 
 As future work we intend to extend our semantics with some real-world regex
 features like capture groups and quantifiers, while keeping an easy to follow
 formalization and an efficient algorithmic interpreter for it. Other line of
 research we intend to pursue is to formalize that the proposed semantics follow 
-a disambiguation strategy and to investigate the time complexity of our algorithm.
+a disambiguation strategy and to investigate the time complexity of our
+algorithm.
+
+\section*{Acknowledgements}
+
+This work is supported by the CNPq – Brazil under grant No.: 426232/2016.
 
 \section*{References}
 
