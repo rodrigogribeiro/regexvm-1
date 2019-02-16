@@ -1,0 +1,12 @@
+Order:
+- FLT
+- REs
+- Formal Semantics
+(...)
+- HS (QC)
+- Coq
+
+- Unificar as duas semânticas em um capítulo
+-- Separar descrição das implementações das semânticas
+
+- Conclusão

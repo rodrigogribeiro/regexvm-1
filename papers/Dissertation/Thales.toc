@@ -1,0 +1,42 @@
+\contentsline {chapter}{\nonumberline Abstract}{iii}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objectives}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Contributions}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Proposal structure}{3}{section.1.3}
+\contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Formal Language Theory}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}A tour of Coq proof assistant}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Regular expressions}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}An Overview about Haskell}{14}{section.2.4}
+\contentsline {section}{\numberline {2.5}An Overview about QuickCheck}{16}{section.2.5}
+\contentsline {section}{\numberline {2.6}Formal Semantics}{17}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Operational semantics for a simple language}{18}{subsection.2.6.1}
+\contentsline {subsubsection}{\nonumberline Small-step semantics for HR}{19}{section*.3}
+\contentsline {subsubsection}{\nonumberline Big-step semantics for HR}{20}{section*.4}
+\contentsline {subsection}{\numberline {2.6.2}Operational Semantics for Regular Expressions}{21}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Regular Expression Parsing}{23}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Ambiguity in Regular Expressions}{25}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Greedy Disambiguation Policy}{25}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.8}Thompson NFA construction}{27}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Data-type derivatives}{29}{subsection.2.8.1}
+\contentsline {chapter}{\numberline {3}Small-step operational semantics}{30}{chapter.3}
+\contentsline {section}{\numberline {3.1}Small-step implementation details}{34}{section.3.1}
+\contentsline {section}{\numberline {3.2}Testsuit}{36}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Properties considered}{37}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Code coverage results}{39}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Big-step operational semantics}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Dealing with problematic REs}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}Big-step semantics for RE parsing}{43}{section.4.2}
+\contentsline {section}{\numberline {4.3}Coq formalization}{44}{section.4.3}
+\contentsline {paragraph}{\nonumberline RE syntax and semantics}{44}{section*.5}
+\contentsline {paragraph}{\nonumberline RE equivalence}{45}{section*.6}
+\contentsline {paragraph}{\nonumberline Converting problematic REs}{45}{section*.7}
+\contentsline {section}{\numberline {4.4}Parse trees and bit-code representation}{47}{section.4.4}
+\contentsline {section}{\numberline {4.5}Formalizing the proposed semantics and its interpreter}{50}{section.4.5}
+\contentsline {section}{\numberline {4.6}Extracting a certified implementation}{52}{section.4.6}
+\contentsline {chapter}{\numberline {5}Related work}{53}{chapter.5}
+\contentsline {chapter}{\numberline {6}Preliminary Results}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}First version of the VM}{59}{section.6.1}
+\contentsline {chapter}{\numberline {7}Schedule and Expected Results}{62}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{64}{chapter.8}
+\contentsline {chapter}{\numberline {A}Correctness of the \ensuremath {\leavevmode {\color [rgb]{0,0.4,0}\mathsf {accept}}} function}{69}{appendix.A}

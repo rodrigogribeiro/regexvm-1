@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Thales.aux
+The style file: plain.bst
+Database file #1: Thales.bib
+Repeated entry---line 93 of file Thales.bib
+ : @book{Bertot2010
+ :                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 352 of file Thales.bib
+ :  
+ :  address={Ouro Preto, MG}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Aho1986"
+Warning--I didn't find a database entry for "Felleisen2009"
+Warning--I didn't find a database entry for "McBride08"
+Warning--I didn't find a database entry for "AbbottAGM03"
+Warning--empty journal in Cox2009
+Warning--can't use both volume and number fields in Pierce2000
+Warning--empty publisher in Pierce2000
+You've used 44 entries,
+            2118 wiz_defined-function locations,
+            819 strings with 11315 characters,
+and the built_in function-call counts, 14169 in all, are:
+= -- 1463
+> -- 554
+< -- 12
++ -- 217
+- -- 171
+* -- 918
+:= -- 2342
+add.period$ -- 141
+call.type$ -- 44
+change.case$ -- 210
+chr.to.int$ -- 0
+cite$ -- 47
+duplicate$ -- 590
+empty$ -- 1155
+format.name$ -- 171
+if$ -- 3019
+int.to.chr$ -- 0
+int.to.str$ -- 44
+missing$ -- 49
+newline$ -- 223
+num.names$ -- 95
+pop$ -- 210
+preamble$ -- 1
+purify$ -- 170
+quote$ -- 0
+skip$ -- 416
+stack$ -- 0
+substring$ -- 903
+swap$ -- 123
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 160
+warning$ -- 3
+while$ -- 158
+width$ -- 46
+write$ -- 502
+(There were 2 error messages)
