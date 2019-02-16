@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.27)  15 FEB 2019 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.27)  15 FEB 2019 22:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3734,7 +3734,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/stmaryrd/stmary10.pfb>
-Output written on Thales.pdf (73 pages, 586729 bytes).
+Output written on Thales.pdf (73 pages, 586645 bytes).
 PDF statistics:
  1054 PDF objects out of 1200 (max. 8388607)
  890 compressed objects within 9 object streams
