@@ -41,9 +41,13 @@ The Haskell stack project is inside the folder coqformalization/Tool/regex-vm.
 Having it installed, you will need to set-up the environment. For this, execute:
 
      stack setup
-     
+
 This command will install all necessary libraries and the GHC compiler, if needed.
-With a proper environment configured, just execute:
+With a proper environment configured, execute:
+
+     stack build
+
+to build the executables for the parsing tool and the benchmark suite. To execute the tool, just run:
 
      stack exec regex-vm-exe
 
